@@ -199,3 +199,5 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit proprietary blobs
 include vendor/xiaomi/miatoll/BoardConfigVendor.mk
+
+TARGET_AUDIO_SKIP_SPEAKER_LAYOUT_CHANNEL_MASK_FIELD := true
